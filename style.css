@@ -19,19 +19,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
+
+.row {}
 
 .content-container {
     background-color: hsl(0, 0%, 12%);
     width: 90%;
     max-width: 325px;
     padding: 1.5em 0;
+    border-radius: 10px;
 }
 
 .user-image {
     width: 100%;
     max-width: 70px;
     border-radius: 50%;
+    margin-bottom: 1.2em;
 }
 
 
@@ -40,6 +45,40 @@ body {
 }
 
 .user-location,
-.about {
+.about,
+.user-link {
     font-size: 12px;
+}
+
+.user-location {
+    color: hsl(75, 94%, 57%);
+    margin-top: .5em;
+}
+
+.user-about {
+    margin: 1.5em;
+}
+
+.about {
+    font-style: italic;
+}
+
+main {
+    gap: 15px;
+}
+
+.user-link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    width: 80%;
+    text-align: center;
+    padding: 1em;
+    border-radius: 10px;
+    font-weight: 400;
+}
+
+.user-link:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%)
 }
