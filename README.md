@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://github.com/atreska/social-links-profile)
-- Live Site URL: [](https://atreska.github.io/social-links-profile/)
+- Solution URL: [Solutuion](https://github.com/atreska/social-links-profile)
+- Live Site URL: [Live Site](https://atreska.github.io/social-links-profile/)
 
 ### Built with
 
